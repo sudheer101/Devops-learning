@@ -82,7 +82,6 @@ Kernel: The core part of the operating system that manages hardware resources an
 •	Process management
 •	Hardware system related calls
 
-![linux os](E:\git\linux os.jpg)
 
 # Shell Scripting
 
