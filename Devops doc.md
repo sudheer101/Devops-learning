@@ -59,7 +59,7 @@ Devops eng will fasten the process of build, test, deploy. ensures the high qual
 
 **O.S**: Operating system is used to run software on the hardware, it act as a bridge between hardware and software.
 
- ![linuxos](<linux os.png>)                                         
+ ![linuxos](<images/linux os.png>)                                         
 
 **Linux** : It is a open source operating system which is most popularly used in the software community is also more secure.
 Secure: no need to install the antivirus
@@ -82,6 +82,7 @@ Kernel: The core part of the operating system that manages hardware resources an
 •	Process management
 •	Hardware system related calls
 
+![architecture](<images/linux architecture.png>)
 
 # Shell Scripting
 
