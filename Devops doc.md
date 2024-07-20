@@ -127,3 +127,19 @@ i –(insert)
 
 ~~~~
 
+
+**How to write shell scripting** 
+
+~~~
+>touch <filename.sh> --> creates a file
+>pwd/ls
+>ls -ltr
+>vi <filename.sh>
+script
+:wq!
+~~~
+
+touch and vi is similar but touch will help to open the multipule file.
+
+#!/ --> shebang
+#!/bin/bash 
