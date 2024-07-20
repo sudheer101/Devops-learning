@@ -10,4 +10,4 @@ git commit -m"message"
 
 git log --> to track version
 
-git reset --hard <commit id>
+git reset --hard commit id 
