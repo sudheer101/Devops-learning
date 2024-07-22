@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Replicaset
+metadata: 
+  name: myapp-replicaset
+  labels: 
+    app: myapp-rs
+    tire: front-end
+spec:
+  templets: 
+    metadate:
+      name: myapp-pod
+      labels:
+        app: myapp
+        tire: front-end
+    spec:
+      contianers:
+       - name: continer-pod
+         image: nginx
+  replicas: 3
+  selectors: 
+    matchLables:
+      tire: front-end
+
+
+#kubectl run -f replicaset-definition.yaml
+#kubectl get replicaset
+#kubectl get pods --> to get the pods which were provided in the input file.
+#kubectl replace -f replicaset-definition.yaml -->if we update the replicas value in the input file.
+#kubectl scale --replicas=6 -f replicaset-definition.yaml
+#kubectl scale --replicas=6 replicaset myapp-replicaset --> tyep and name as input
