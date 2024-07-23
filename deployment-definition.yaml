@@ -21,3 +21,9 @@ spec:
       containers:
         - name: pod-container
           image: nginx
+
+# kubectl create -f deployment-definition.yaml          
+# kubectl get deployments
+# kubectl get replicasets
+# kubectl get pods
+
