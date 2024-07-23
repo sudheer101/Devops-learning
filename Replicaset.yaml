@@ -27,4 +27,5 @@ spec:
 #kubectl get pods --> to get the pods which were provided in the input file.
 #kubectl replace -f replicaset-definition.yaml -->if we update the replicas value in the input file.
 #kubectl scale --replicas=6 -f replicaset-definition.yaml
-#kubectl scale --replicas=6 replicaset myapp-replicaset --> tyep and name as input
+#kubectl scale --replicas=6 replicaset myapp-replicaset --> type and name as input
+#kubectl edit rs <rs-name> ---> to modify/edit the current replicaset
