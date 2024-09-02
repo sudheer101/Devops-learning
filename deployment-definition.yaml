@@ -27,4 +27,4 @@ spec:
 # kubectl get replicasets
 # kubectl get pods
 # kubectl get all --> this will give all the objects were creted in the k8's cluster
-
+# kubectl create deployment <name_of_deployment> --image=<image_name> --replicas=3
